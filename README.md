@@ -10,7 +10,7 @@ docker run -d \
   -e TAILSCALE_AUTHKEY=tskey-1234567890abcdefg \
   -p 8428:8428 \
   -v `pwd`/victoria-metrics-data:/victoria-metrics-data \
-  -d public.ecr.aws/jg/victoriametrics-tailscale
+  -d public.ecr.aws/jg/victoria-metrics-tailscale
 ```
 
 On your tailnet you should have a new `vmetrics` endpoint you can push metrics to.
